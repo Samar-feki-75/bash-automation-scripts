@@ -30,17 +30,23 @@ bash-automation-scripts/
 ./scripts/log_cleaner.sh ./test_logs
 cat logs/log_cleaner.log
 
-2️⃣ Backup a Directory
+```
+### 2️⃣ Backup a Directory
+
+```bash
 ./scripts/backup.sh ./scripts
 cat logs/backup.log
 
-3️⃣ Simulate System Update
+```
+### 3️⃣ Simulate System Update
+
+```bash
 ./scripts/update.sh
 cat logs/update.log
 
+```
 
-
-🧰 Features
+## 🧰 Features
 
 Timestamped backups
 
@@ -52,6 +58,6 @@ Works locally without root privileges
 
 Easily adaptable to Linux servers, VMs, or cloud environments
 
-✅ License
+## ✅ License
 
 This project is open-source and free to use for learning purposes.
