@@ -6,20 +6,19 @@ It’s designed for learning **basic Bash scripting, conditionals, loops, and lo
 
 ---
 
+
 ## 🗂️ Project Structure
 
+```text
 bash-automation-scripts/
-│
 ├── scripts/
-│ ├── log_cleaner.sh # Deletes old log files
-│ ├── backup.sh # Archives directories with timestamped backups
-│ └── update.sh # Simulates system update
-│
-├── logs/ # Stores logs of script runs (ignored by Git)
-├── backups/ # Stores backup archives (ignored by Git)
-├── test_logs/ # Sample log files for testing scripts
+│   ├── log_cleaner.sh        # Deletes old log files
+│   ├── backup.sh             # Archives directories with timestamped backups
+│   └── update.sh             # Simulates system update
+├── logs/                     # Stores logs of script runs (ignored by Git)
+├── backups/                  # Stores backup archives (ignored by Git)
+├── test_logs/                # Sample log files for testing scripts
 └── README.md
-
 
 ---
 
