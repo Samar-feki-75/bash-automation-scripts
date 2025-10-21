@@ -20,6 +20,7 @@ bash-automation-scripts/
 ├── test_logs/                # Sample log files for testing scripts
 └── README.md
 
+```
 ---
 
 ## ⚡ How to Use
